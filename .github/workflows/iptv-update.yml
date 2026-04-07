@@ -36,7 +36,7 @@ jobs:
       env:
         FOFA_EMAIL: ${{ secrets.FOFA_EMAIL }}
         FOFA_KEY: ${{ secrets.FOFA_KEY }}
-        FOFA_QUERY: '"udpxy" && country="CN" && is_honeypot=false'
+        FOFA_QUERY: "udpxy" && country="CN"
         MAX_IPS_PER_FILE: "20"
         TEST_TIMEOUT: "5"
         RUN_EVERY_N: "3"
